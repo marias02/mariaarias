@@ -1,0 +1,132 @@
+// Place all the styles related to the Portfolio controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+#content-container{
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio-grid-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 1%;
+    width: 1050px;
+    height: 2150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 17px 3px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 1px 1px 17px 3px rgba(0,0,0,0.74);
+    -moz-box-shadow: 1px 1px 17px 3px rgba(0,0,0,0.74);
+}
+
+#grid-port-container{
+    display: grid;
+    width: 1005px;
+    height: 2105px;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 420px 420px 420px 420px 420px;
+    column-gap: 5px;
+    row-gap: 5px;
+    background-color: white;
+}
+
+div.portfolio-grid-item{
+    width: 500px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#portoriginal-1{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+div#portoriginal-2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+div#portoriginal-3{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+div#portoriginal-4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+div#portoriginal-5{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+div#portoriginal-6{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+div#portoriginal-7{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+div#portoriginal-8{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+div#portoriginal-9{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+div#portoriginal-10{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+div.img-and-link{
+    width: 500px;
+    height: 335px;
+}
+
+img.portfolio-grid-img{
+    width: 500px;
+    height: 300px;
+}
+
+article.portfolio-grid-article{
+    text-align: justify;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-indent: 5px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    color: black;
+    font-size: 20px;
+}

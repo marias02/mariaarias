@@ -1,0 +1,261 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#header{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7af9d;
+    padding: 0px 10px 0px 10px;
+    position: sticky;
+    top: 0;
+}
+
+#home-title{
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+a.links{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    color: black;
+    font-size: 33px;
+    text-decoration: none;
+}
+
+img#home-image{
+    height: 737px;
+    width: 1440px;
+}
+
+section.category-section{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    color: black;
+    font-weight: lighter;
+    font-size: 25px;
+    height: 727px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    margin: 5px 5px 5px 5px;
+    background-color: white;
+    box-shadow: 1px -1px 15px 4px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 1px -1px 15px 4px rgba(0,0,0,0.72);
+    -moz-box-shadow: 1px -1px 15px 4px rgba(0,0,0,0.72);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2.category-title{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+article#portfolio-art{
+    font-size: 27px;
+    margin-top: 20px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 20px;
+    text-indent: 10px;
+}
+
+#grid-container{
+    background-color: white;
+    margin: 80px 5px 5px 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.43);
+}
+
+#portfolio-grid{
+    width: 785px;
+    height: 525px;
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 270px 270px;
+}
+
+div.portfolio-item{
+    width: 390px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#port-1{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+div#port-2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+div#port-3{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+div#port-4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+img.portfolio-item-img{
+    width: 100%;
+}
+
+div.home-links-container{
+    background-color: #f4b4c8;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+a.home-links{
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 120%;
+}
+
+div.see-more-container{
+    width: 99.5%;
+    margin: 0px 2px 0px 2px;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    background-color: #ffe1ce;
+}
+
+a.see-more{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 120%;
+    padding-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+div#my-picture-container{
+    width: 420px;
+    height: 520px;
+    margin: 20px 20px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.43);
+}
+
+img#my-picture{
+    border-radius: 50%;
+    width: 400px;
+    height: 500px;
+}
+
+article#about-art{
+    font-size: 27px;
+    margin-top: 65px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-right: 5px;
+    text-indent: 10px;
+}
+
+section#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#contact-bottom{
+    margin-top: 50px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 200px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.43);
+}
+
+.fa-envelope, .fa-phone, .fa-hashtag{
+    color: #f4b4c8;
+}
+
+#see-more-contact{
+    width: 87%;
+    align-self: center;
+}
+
+p{
+    font-size: 45px;
+}

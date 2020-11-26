@@ -1,0 +1,54 @@
+// Place all the styles related to the Contact controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+#contact-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    color: black;
+}
+
+#contact-banners-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    color: black;
+}
+
+.contact-p{
+    font-size: 25px;
+}
+
+.banners-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: black;
+    background-color: burlywood;
+}
+
+.fa-instagram, .fa-twitter{
+    color: black;
+}
+
+.fa-instagram:hover, .fa-twitter:hover{
+    color: blueviolet
+}
+
+#about-phone{
+    color: black;
+}
